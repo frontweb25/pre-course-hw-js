@@ -6,7 +6,7 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-let passportMarried2 = { ...passportMarried}
+let passportMarried2 = JSON.parse(JSON.stringify(passportMarried))
 passportMarried2.married = true
 
 console.log(passportMarried)
