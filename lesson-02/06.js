@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let cloneObject = {...passportWithAddress}
+let cloneObject = JSON.parse(JSON.stringify(passportWithAddress))
 
 console.log(passportWithAddress.address.city)
 console.log(cloneObject.address.city = 'Bobryisk')
