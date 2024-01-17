@@ -1,5 +1,4 @@
 const giveMeRightCondition = (value1, value2, maximum) => {
-    debugger
     if (value1 === value2 && value2 <= maximum) {
         console.log('Success!');
     } else {
@@ -7,4 +6,4 @@ const giveMeRightCondition = (value1, value2, maximum) => {
     }
 }
 
-giveMeRightCondition(100, 100, 200)
+giveMeRightCondition(200, 100, 200)
